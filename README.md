@@ -7,8 +7,11 @@ This repository is a ready-to-run PhD Surgery workshop for Forrest Research Foun
 - **Audience:** Forrest Research Foundation Scholars and Fellows, including beginner web developers
 - **Duration:** 90–120 minutes
 - **Outcome:** a live research profile at `https://YOUR-USERNAME.github.io`
+- **Platforms:** Windows, macOS, Linux, or GitHub Codespaces
 - **Tools:** GitHub, VS Code, Git, and GitHub Copilot
 - **Format:** short demos, guided build, pair review, and an individual extension challenge
+
+The workflow is platform-neutral. Participants can use the VS Code integrated terminal with PowerShell, Git Bash, macOS/Linux shells, or GitHub Codespaces. The participant guide includes the small command differences.
 
 ## What is included
 

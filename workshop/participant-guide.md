@@ -24,6 +24,19 @@ You need:
 - GitHub Copilot in VS Code, if your facilitator has provided access; and
 - four pieces of content: your Scholar/Fellow status, your university, a public description of your research, and links you are comfortable publishing.
 
+### Windows, macOS, Linux, or Codespaces
+
+The workshop works on all three desktop operating systems. Use whichever terminal feels most comfortable:
+
+| Environment | Terminal option | Notes |
+| --- | --- | --- |
+| Windows | PowerShell or Git Bash in VS Code | Git Bash accepts the macOS/Linux examples below. PowerShell examples are included where a command differs. |
+| macOS | Terminal or the VS Code integrated terminal | Use the macOS/Linux examples. |
+| Linux | Your usual shell or the VS Code integrated terminal | Use the macOS/Linux examples. |
+| Any platform | GitHub Codespaces | Open the repository in a codespace and skip local Git and Python installation. |
+
+Install [VS Code](https://code.visualstudio.com/download) and [Git](https://git-scm.com/downloads) before the session if you are working locally. On Windows, Git Bash is optional; PowerShell is supported. You can always use **File → Open Folder** in VS Code if the `code .` command is not available.
+
 ### Forrest Research Foundation context
 
 Use this editable sentence in your site:
@@ -74,7 +87,7 @@ script.js
 
 ## 3. Open the project in VS Code
 
-Clone your repository from the repository page, then open it in VS Code. The integrated terminal commands look like this:
+Clone your repository from the repository page, then open it in VS Code. These commands are the same in macOS, Linux, Git Bash, and most Codespaces:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io.git
@@ -82,7 +95,15 @@ cd YOUR-USERNAME.github.io
 code .
 ```
 
-If you are using GitHub Codespaces, open the repository in a codespace and skip the clone command.
+In Windows PowerShell, use the following equivalent for the folder-change command:
+
+```powershell
+git clone https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io.git
+Set-Location YOUR-USERNAME.github.io
+code .
+```
+
+If `code .` is not recognised, open VS Code manually and choose **File → Open Folder**, then select the cloned repository. If you are using GitHub Codespaces, open the repository in a codespace and skip the clone command.
 
 You should see `index.html`, `styles.css`, `script.js`, and a `.github` folder in the Explorer. Open `index.html` in the editor and locate the sample name, Forrest Research Foundation affiliation, research summary, research links, email address, and social links.
 
@@ -135,13 +156,19 @@ For more prompt cards, see [`copilot-prompts.md`](copilot-prompts.md).
 
 ## 6. Preview locally
 
-Use the VS Code integrated terminal to start a tiny local server:
+Use the VS Code integrated terminal to start a tiny local server. On macOS, Linux, Git Bash, and most Codespaces:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Open [http://localhost:8000](http://localhost:8000) in a browser. If `python3` is unavailable, use VS Code’s Live Preview extension or the equivalent local preview available in your environment.
+On Windows PowerShell, try the Python launcher:
+
+```powershell
+py -m http.server 8000
+```
+
+If `py` is unavailable, try `python -m http.server 8000`. If Python is not installed on any platform, use VS Code’s Live Preview extension or another approved local preview tool. Open [http://localhost:8000](http://localhost:8000) in a browser.
 
 Check the page at a wide and narrow width. In particular, verify:
 
@@ -151,7 +178,7 @@ Check the page at a wide and narrow width. In particular, verify:
 - text is readable without zooming out; and
 - your content is accurate and does not expose private information.
 
-Stop the server with `Ctrl+C` when you are finished previewing.
+Stop the server with `Ctrl+C` in every terminal environment when you are finished previewing.
 
 ## 7. Commit and push from VS Code
 
@@ -163,7 +190,7 @@ git commit -m "Create research profile site"
 git push -u origin main
 ```
 
-If your repository uses `master` instead of `main`, push that branch instead. You can also stage, commit, and sync from the VS Code Source Control view.
+These Git commands work in PowerShell, Git Bash, macOS, Linux, and Codespaces. If your repository uses `master` instead of `main`, push that branch instead. You can also stage, commit, and sync from the VS Code Source Control view.
 
 ## 8. Turn on GitHub Pages
 

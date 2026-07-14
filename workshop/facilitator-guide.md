@@ -19,6 +19,18 @@ Participants will be able to:
 - use a local preview and basic accessibility checks; and
 - publish and update a static site through GitHub Actions.
 
+## Platform support
+
+This workshop is designed for Windows, macOS, Linux, and GitHub Codespaces. Keep the workflow consistent across the room:
+
+- Use the VS Code integrated terminal so the editor, files, and Git history are visible together.
+- On Windows, demonstrate PowerShell for the local server (`py -m http.server 8000`) and mention that Git Bash can use the macOS/Linux command (`python3 -m http.server 8000`).
+- On macOS and Linux, use `python3 -m http.server 8000`.
+- If a participant does not have Python, use VS Code Live Preview or GitHub Codespaces rather than spending the workshop installing a runtime.
+- If `code .` is unavailable, demonstrate **File → Open Folder** in VS Code.
+- Keep file paths and URLs in examples platform-neutral by using `/` in repository paths and links.
+- The repository’s `.gitattributes` file normalises text line endings so Windows and Unix-based systems do not create noisy diffs.
+
 ## Suggested timing: 110 minutes
 
 | Time | Activity | Facilitator move |
@@ -37,7 +49,8 @@ If time is short, make GitHub Education verification a pre-work item and omit th
 
 ## Before the session
 
-- Confirm that participants can access GitHub and VS Code, or prepare GitHub Codespaces as a fallback.
+- Confirm that participants can access GitHub and VS Code on Windows, macOS, or Linux, or prepare GitHub Codespaces as a fallback.
+- Ask participants to open the VS Code integrated terminal and check whether they are using PowerShell, Git Bash, or a macOS/Linux shell.
 - Decide whether this repository will be marked as a GitHub template.
 - Test the Pages workflow in a public repository before the session.
 - Prepare a sample `username.github.io` site using fictional Scholar/Fellow, university, and research details.

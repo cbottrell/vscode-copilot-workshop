@@ -2,13 +2,22 @@
 
 Use this guide after checking the local site. Fix one layer at a time: content, local preview, Git history, workflow, then Pages settings.
 
+## Platform-specific setup
+
+- **Windows:** use PowerShell or Git Bash in VS Code. For a local preview, try `py -m http.server 8000` in PowerShell. Git Bash can use `python3 -m http.server 8000`.
+- **macOS/Linux:** use `python3 -m http.server 8000`.
+- **Codespaces:** use the forwarded port shown by VS Code and do not install Git or Python locally.
+- **Any platform:** if `code .` is not recognised, open the repository with **File → Open Folder** in VS Code. If no Python command is available, use Live Preview.
+
+The Git commands in the participant guide work in PowerShell, Git Bash, macOS, Linux, and Codespaces. The `.gitattributes` file keeps text line endings consistent.
+
 ## The local page is blank or shows the wrong content
 
 1. Confirm that the file is named exactly `index.html`.
 2. Open the browser developer tools and check the Console for errors.
 3. Check that `styles.css` and `script.js` are linked with the correct lowercase names.
 4. Refresh after saving the file.
-5. If the local server is running from the wrong folder, stop it and run `python3 -m http.server 8000` from the repository root.
+5. If the local server is running from the wrong folder, stop it and run the platform-appropriate command from the repository root: `python3 -m http.server 8000` on macOS/Linux/Git Bash, or `py -m http.server 8000` in Windows PowerShell.
 
 ## The mobile menu does not open
 
