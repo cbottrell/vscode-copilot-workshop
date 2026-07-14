@@ -12,7 +12,7 @@ This is a small research profile site for a Forrest Research Foundation Scholar 
 - Do not invent a participant’s biography, Scholar/Fellow status, university, supervisor, funding, research claims, results, publication status, or contact details. Use clearly marked placeholders and ask the participant to replace them.
 - Keep the affiliation statement available as an editable pattern: “I am a Forrest Research Foundation [Scholar / Fellow] working at [Curtin / Murdoch / UWA / ECU / Notre Dame].”
 - Treat unpublished research, participant information, sensitive data, confidential reviews, and embargoed results as private. Never ask a participant to paste them into Copilot or publish them on GitHub Pages.
-- Preserve the existing visual language unless the participant asks for a new direction: warm paper background, dark green ink, orange accent, lime highlight, large type, and mono labels.
+- Preserve the simple academic-profile visual language unless the participant asks for a new direction: system fonts, a dark/light theme, a blue accent, generous whitespace, a centered hero, and plain text sections.
 - Make layouts responsive from the smallest screen up.
 - Keep keyboard focus visible, maintain sensible heading order, provide descriptive link text, and include alt text when images are introduced.
 - Respect `prefers-reduced-motion` and do not add motion that is required to understand the page.

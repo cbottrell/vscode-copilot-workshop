@@ -5,15 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A starter research profile website for a Forrest Research Foundation Scholar or Fellow, built with HTML, CSS, JavaScript, GitHub, and GitHub Copilot."
+      content="A simple research profile for a Forrest Research Foundation Scholar or Fellow."
     />
-    <title>Alex Morgan — Forrest Research Foundation Scholar / Fellow</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <title>[Your name] — Forrest Research Foundation Scholar / Fellow</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -21,139 +15,88 @@
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="wordmark" href="#top" aria-label="Forrest Research Foundation profile home">FRF<span>.</span></a>
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="nav-container">
+        <a class="logo" href="#home">[Your name]</a>
         <button
           class="menu-toggle"
+          id="menu-toggle"
           type="button"
           aria-expanded="false"
-          aria-controls="site-nav"
+          aria-controls="nav-menu"
         >
-          <span class="menu-toggle-label">Menu</span>
-          <span class="menu-toggle-icon" aria-hidden="true">↘</span>
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
         </button>
-        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-          <a href="#about">About</a>
-          <a href="#work">Research</a>
-          <a href="#contact">Contact</a>
-        </nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <button class="theme-toggle" id="theme-toggle" type="button">
+      <span aria-hidden="true">☯</span>
+      <span class="sr-only">Toggle light and dark mode</span>
+    </button>
+
+    <header id="home" class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Forrest Research Foundation</p>
+        <h1>[Your name]</h1>
+        <p class="tagline">Forrest Research Foundation [Scholar / Fellow] | [Your research field]</p>
+        <p class="affiliation">
+          I am a Forrest Research Foundation [Scholar / Fellow] working at [Curtin / Murdoch / UWA / ECU / Notre Dame].
+        </p>
       </div>
     </header>
 
     <main id="main-content">
-      <section id="top" class="hero section-grid" aria-labelledby="hero-title">
-        <div class="container hero-inner">
-          <p class="eyebrow">Forrest Research Foundation / PhD Surgery</p>
-          <h1 id="hero-title">I make research useful for curious people.</h1>
-          <div class="hero-bottom">
-            <p class="hero-intro">
-              I am a Forrest Research Foundation [Scholar / Fellow] working at [Curtin / Murdoch / UWA / ECU / Notre Dame], researching [YOUR FIELD].
-            </p>
-            <a class="text-link" href="#work">Explore my research <span aria-hidden="true">↘</span></a>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="about section-grid" aria-labelledby="about-title">
-        <div class="container two-column">
-          <p class="section-number">01 / About my research</p>
-          <div>
-            <h2 id="about-title">Good research becomes more useful when more people can understand it.</h2>
-            <div class="about-copy">
-              <p>
-                I am a Forrest Research Foundation [Scholar / Fellow] working at [Curtin / Murdoch / UWA / ECU / Notre Dame]. My research explores [YOUR RESEARCH TOPIC] and asks [YOUR RESEARCH QUESTION].
-              </p>
-              <p>
-                I care about making complex ideas clear, useful, and available to people beyond
-                my immediate research field. This site shares public-safe summaries of my work.
-              </p>
-            </div>
-            <ul class="tag-list" aria-label="Research profile topics">
-              <li>[Research area]</li>
-              <li>Public engagement</li>
-              <li>Methods</li>
-              <li>Collaboration</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="work" class="work section-grid" aria-labelledby="work-title">
+      <section id="about" class="section">
         <div class="container">
-          <div class="section-heading">
-            <p class="section-number">02 / Research and public scholarship</p>
-            <h2 id="work-title">A few questions I’m exploring.</h2>
-          </div>
-          <div class="project-grid">
-            <article class="project-card project-card-featured">
-              <div class="project-visual visual-solar" aria-hidden="true">
-                <span>research / 01</span>
-                <span class="sun-mark">✳</span>
-              </div>
-              <div class="project-meta">
-                <p class="project-type">Research project · [YEAR]</p>
-                <h3>[Research project title]</h3>
-                <p>[One-sentence public description of your research question, approach, or contribution.]</p>
-                <a class="text-link" href="https://orcid.org/" target="_blank" rel="noreferrer">
-                  Read public summary <span aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-visual visual-radio" aria-hidden="true">
-                <span>engagement / 02</span>
-                <span class="radio-mark">◌</span>
-              </div>
-              <div class="project-meta">
-                <p class="project-type">Public scholarship · [YEAR]</p>
-                <h3>[Talk, article, or outreach activity]</h3>
-                <p>[Explain how you share your research with a broader community.]</p>
-                <a class="text-link" href="https://orcid.org/" target="_blank" rel="noreferrer">
-                  Read more <span aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-visual visual-tide" aria-hidden="true">
-                <span>methods / 03</span>
-                <span class="tide-mark">≈</span>
-              </div>
-              <div class="project-meta">
-                <p class="project-type">Methods / collaboration · [YEAR]</p>
-                <h3>[Tool, dataset, or collaboration]</h3>
-                <p>[Describe a public method, resource, or collaboration without sharing restricted material.]</p>
-                <a class="text-link" href="https://orcid.org/" target="_blank" rel="noreferrer">
-                  View profile <span aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </article>
-          </div>
+          <h2>About me</h2>
+          <p>
+            I am a Forrest Research Foundation [Scholar / Fellow] working at
+            [Curtin / Murdoch / UWA / ECU / Notre Dame]. I am researching
+            [YOUR RESEARCH TOPIC] and asking [YOUR RESEARCH QUESTION].
+          </p>
+          <p>
+            My work sits at the intersection of [FIELD 1], [FIELD 2], and
+            [FIELD 3]. I am interested in making research useful and
+            understandable beyond my immediate research community.
+          </p>
         </div>
       </section>
 
-      <section id="contact" class="contact section-grid" aria-labelledby="contact-title">
-        <div class="container contact-inner">
-          <p class="section-number">03 / Contact</p>
-          <h2 id="contact-title">Have a good research question?</h2>
-          <p class="contact-copy">I’m happy to connect with fellow researchers, collaborators, and curious people.</p>
-          <a class="email-link" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
-          <div class="social-links" aria-label="Social links">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
-          </div>
+      <section id="research" class="section section-alt">
+        <div class="container">
+          <h2>Research interests</h2>
+          <ul class="research-list">
+            <li>[Research area or question one]</li>
+            <li>[Research area or question two]</li>
+            <li>[Method, community, or application]</li>
+          </ul>
+          <p>
+            For public summaries, publications, talks, or profiles, add your
+            links here: <a href="https://orcid.org/" target="_blank" rel="noreferrer">ORCID</a>
+            · <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Get in touch</h2>
+          <p>Reach out for research conversations, collaborations, and public engagement.</p>
+          <a class="button" href="mailto:your.email@example.com">Email me</a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <p>Built for the Forrest Research Foundation PhD Surgery workshop with HTML, CSS, GitHub, and Copilot.</p>
-        <p>© <span id="current-year">2026</span> Alex Morgan</p>
-      </div>
+    <footer>
+      <p>© <span id="current-year">2026</span> [Your name]. Built with GitHub Pages.</p>
     </footer>
   </body>
 </html>

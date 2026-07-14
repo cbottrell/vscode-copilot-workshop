@@ -37,7 +37,7 @@ Inspect styles.css and describe how the layout behaves at 1200px, 760px, and 360
 ```
 
 ```text
-Make the project cards readable at 360px wide. Preserve the color palette and desktop layout, use the existing breakpoint when possible, and explain each changed selector after the patch.
+Make the research and contact sections readable at 360px wide. Preserve the simple layout and desktop spacing, use the existing breakpoint when possible, and explain each changed selector after the patch.
 ```
 
 ## Accessibility

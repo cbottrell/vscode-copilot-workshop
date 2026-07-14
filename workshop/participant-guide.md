@@ -84,7 +84,7 @@ code .
 
 If you are using GitHub Codespaces, open the repository in a codespace and skip the clone command.
 
-You should see `index.html`, `styles.css`, `script.js`, and a `.github` folder in the Explorer. Open `index.html` in the editor and locate the sample name, Forrest Research Foundation affiliation, research summary, project cards, email address, and social links.
+You should see `index.html`, `styles.css`, `script.js`, and a `.github` folder in the Explorer. Open `index.html` in the editor and locate the sample name, Forrest Research Foundation affiliation, research summary, research links, email address, and social links.
 
 ## 4. Make the starter profile yours
 
@@ -94,7 +94,7 @@ Begin with a change you understand. Replace:
 - `[Scholar / Fellow]` with your current Forrest Research Foundation appointment;
 - `[Curtin / Murdoch / UWA / ECU / Notre Dame]` with your university;
 - the research summary with a public-safe description of your work;
-- the three sample cards with public outputs, talks, methods, or collaborations; and
+- the sample research text and links with public outputs, talks, methods, or collaborations; and
 - the sample links and email address with your public links.
 
 Keep the HTML structure while you edit the content. This lets you see the difference between content, presentation, and behavior:
@@ -120,7 +120,7 @@ Review index.html and suggest three concise hero taglines for a Forrest Research
 ```
 
 ```text
-In index.html, replace the three sample cards with public-safe placeholders for my research, public scholarship, and methods/collaboration. Keep the existing semantic structure and link style. Do not invent research outcomes, participants, technologies, or publication status; use [REPLACE THIS] where information is missing.
+In index.html, replace the sample research, public scholarship, and methods/collaboration text with my public-safe placeholders. Keep the simple semantic structure and link style. Do not invent research outcomes, participants, technologies, or publication status; use [REPLACE THIS] where information is missing.
 ```
 
 ```text
