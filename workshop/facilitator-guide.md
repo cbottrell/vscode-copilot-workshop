@@ -50,8 +50,9 @@ If time is short, make GitHub Education verification a pre-work item and omit th
 ## Before the session
 
 - Confirm that participants can access GitHub and VS Code on Windows, macOS, or Linux, or prepare GitHub Codespaces as a fallback.
+- Share the [Forrest Research Foundation profile template](https://github.com/cbottrell/forrest-research-profile-template) and keep this repository as the workshop-instructions repository.
+- Confirm the participant template is marked as a GitHub template and test **Use this template → Create a new repository** before the session.
 - Ask participants to open the VS Code integrated terminal and check whether they are using PowerShell, Git Bash, or a macOS/Linux shell.
-- Decide whether this repository will be marked as a GitHub template.
 - Test the Pages workflow in a public repository before the session.
 - Prepare a sample `username.github.io` site using fictional Scholar/Fellow, university, and research details.
 - Decide how participants will share links without exposing information they want to keep private.

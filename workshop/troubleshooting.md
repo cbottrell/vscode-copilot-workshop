@@ -11,6 +11,10 @@ Use this guide after checking the local site. Fix one layer at a time: content, 
 
 The Git commands in the participant guide work in PowerShell, Git Bash, macOS, Linux, and Codespaces. The `.gitattributes` file keeps text line endings consistent.
 
+## The “Use this template” button is missing
+
+Make sure participants are using the [Forrest Research Foundation profile template](https://github.com/cbottrell/forrest-research-profile-template), not this facilitator repository. The facilitator can check **Settings → General → Template repository** in the template repository. Participants need read access to the template repository; this one is public.
+
 ## The local page is blank or shows the wrong content
 
 1. Confirm that the file is named exactly `index.html`.

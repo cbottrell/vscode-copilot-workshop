@@ -27,11 +27,15 @@ The workflow is platform-neutral. Participants can use the VS Code integrated te
 | [`workshop/copilot-prompts.md`](workshop/copilot-prompts.md) | Copy-ready prompt cards for the build |
 | [`workshop/troubleshooting.md`](workshop/troubleshooting.md) | Recovery paths for common GitHub Pages issues |
 
+## Participant template
+
+Use the separate [Forrest Research Foundation profile template](https://github.com/cbottrell/forrest-research-profile-template) for participant repositories. It contains only the starter website, Pages workflow, Copilot instructions, and a short setup README. This repository remains the facilitator source with the full workshop guides and prompt cards.
+
 ## How to run the workshop
 
-1. Share this repository with Scholars and Fellows or mark it as a GitHub template.
-2. Ask each participant to create a **public** repository named `YOUR-USERNAME.github.io`.
-3. Have participants copy the starter files into that repository, then open it in VS Code.
+1. Share this repository for the workshop instructions and the [participant template](https://github.com/cbottrell/forrest-research-profile-template) for starter files.
+2. Ask each participant to choose **Use this template → Create a new repository**.
+3. Have participants name the new **public** repository `YOUR-USERNAME.github.io`, then open it in VS Code.
 4. Follow [`workshop/participant-guide.md`](workshop/participant-guide.md) from top to bottom.
 5. Use the facilitator guide to pause for the suggested research-profile checkpoints and pair reviews.
 

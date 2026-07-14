@@ -65,9 +65,11 @@ Write quick answers to these prompts. They become your research-profile content 
 
 Do not publish your home address, personal phone number, private class information, passwords, API keys, unpublished thesis chapters, participant data, embargoed results, confidential feedback, or anything you would not put on a public noticeboard.
 
-## 2. Create your research profile repository
+## 2. Create your research profile from the template
 
-On GitHub, create a **public** repository with this exact name:
+Open the [Forrest Research Foundation profile template](https://github.com/cbottrell/forrest-research-profile-template) and choose **Use this template → Create a new repository**. This creates a new repository with the lean starter files, without copying the facilitator’s workshop guides or commit history.
+
+Choose your own GitHub account as the owner and create a **public** repository with this exact name:
 
 ```text
 YOUR-USERNAME.github.io
@@ -75,7 +77,7 @@ YOUR-USERNAME.github.io
 
 Replace `YOUR-USERNAME` with your GitHub username. For example, if your username is `sam-lee`, the repository must be `sam-lee.github.io`.
 
-If the facilitator has enabled this workshop repository as a template, choose **Use this template** and create your new repository from it. Otherwise, copy these starter files into your new repository:
+If the template link is temporarily unavailable, ask the facilitator for the starter files. The template contains:
 
 ```text
 index.html
