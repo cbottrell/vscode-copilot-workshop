@@ -2,15 +2,17 @@
 
 ## Project context
 
-This is a small personal portfolio site that will be deployed as a static GitHub Pages site. It uses plain HTML, CSS, and JavaScript. Keep the project easy for a beginner to read.
+This is a small research profile site for a Forrest Research Foundation Scholar or Fellow. It will be deployed as a static GitHub Pages site and uses plain HTML, CSS, and JavaScript. Keep the project easy for a PhD student or postdoc to read.
 
 ## Working agreements
 
 - Prefer semantic HTML elements and native browser features.
-- Keep the existing file structure unless the learner asks to introduce a new file.
+- Keep the existing file structure unless the participant asks to introduce a new file.
 - Do not add a framework, package manager, build step, analytics script, or external API.
-- Do not invent a learner’s biography, achievements, employment, project results, or contact details. Use clearly marked placeholders and ask the learner to replace them.
-- Preserve the existing visual language unless the learner asks for a new direction: warm paper background, dark green ink, orange accent, lime highlight, large type, and mono labels.
+- Do not invent a participant’s biography, Scholar/Fellow status, university, supervisor, funding, research claims, results, publication status, or contact details. Use clearly marked placeholders and ask the participant to replace them.
+- Keep the affiliation statement available as an editable pattern: “I am a Forrest Research Foundation [Scholar / Fellow] working at [Curtin / Murdoch / UWA / ECU / Notre Dame].”
+- Treat unpublished research, participant information, sensitive data, confidential reviews, and embargoed results as private. Never ask a participant to paste them into Copilot or publish them on GitHub Pages.
+- Preserve the existing visual language unless the participant asks for a new direction: warm paper background, dark green ink, orange accent, lime highlight, large type, and mono labels.
 - Make layouts responsive from the smallest screen up.
 - Keep keyboard focus visible, maintain sensible heading order, provide descriptive link text, and include alt text when images are introduced.
 - Respect `prefers-reduced-motion` and do not add motion that is required to understand the page.
@@ -18,11 +20,11 @@ This is a small personal portfolio site that will be deployed as a static GitHub
 
 ## Before suggesting a change
 
-Ask what the learner wants to improve and which file is involved. For content changes, suggest copy that is specific but leave personal facts as placeholders. For layout changes, describe the responsive behavior at narrow and wide widths.
+Ask what the participant wants to improve and which file is involved. For content changes, ask whether the research detail is already safe to publish. Suggest copy that is specific but leave personal facts and research claims as placeholders. For layout changes, describe the responsive behavior at narrow and wide widths.
 
 ## Verification checklist
 
-After an edit, ask the learner to:
+After an edit, ask the participant to:
 
 1. open the site in a local browser;
 2. resize the window to check the mobile layout;

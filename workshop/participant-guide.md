@@ -1,15 +1,15 @@
-# Participant guide: ship your personal site
+# Participant guide: publish your research profile
 
-Welcome! In this workshop you will make a small portfolio site, use GitHub Copilot as a pair programmer, and publish the result with GitHub Pages.
+Welcome! In this PhD Surgery workshop you will make a public research profile, use GitHub Copilot as a pair programmer, and publish the result with GitHub Pages.
 
-The goal is not to produce the same design as everyone else. The goal is to leave with a real, public website that sounds like you and that you can keep improving.
+The goal is not to produce the same design as everyone else. The goal is to leave with a real, public website that introduces you as a Forrest Research Foundation Scholar or Fellow and that you can keep improving.
 
 ## What you will finish
 
 By the end of the lab, you will have:
 
 - a GitHub repository named `YOUR-USERNAME.github.io`;
-- a responsive personal site with an about section, projects, and contact links;
+- a responsive research profile with your Scholar/Fellow status, university, research area, public-safe summaries, and contact links;
 - at least one change suggested or explained by Copilot and reviewed by you;
 - a commit pushed from VS Code to GitHub; and
 - a live GitHub Pages URL.
@@ -22,27 +22,37 @@ You need:
 - VS Code installed and signed in to GitHub;
 - Git installed, or access to a GitHub Codespace;
 - GitHub Copilot in VS Code, if your facilitator has provided access; and
-- three pieces of content: a short introduction, one or two projects, and links you are comfortable publishing.
+- four pieces of content: your Scholar/Fellow status, your university, a public description of your research, and links you are comfortable publishing.
+
+### Forrest Research Foundation context
+
+Use this editable sentence in your site:
+
+```text
+I am a Forrest Research Foundation [Scholar / Fellow] working at [Curtin / Murdoch / UWA / ECU / Notre Dame].
+```
+
+Choose **Scholar** if you are a Forrest Research Foundation PhD student and **Fellow** if you are a postdoctoral Fellow. Replace the university placeholder with your institution. Keep the wording accurate to your current appointment.
 
 ### Optional: verify GitHub Education
 
 If you are a student aged 13 or older, you can apply for the [GitHub Student Developer Pack](https://education.github.com/pack/join). GitHub may ask for a school email address or proof of enrollment. Once GitHub verifies your student status, follow [GitHub’s student Copilot instructions](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students) to activate Copilot Student.
 
-This is optional for the workshop. If verification is pending, keep building with the access you already have. Offers and eligibility can change, so use the current GitHub pages linked above rather than relying on screenshots.
+This is optional for the workshop and separate from your Forrest Research Foundation affiliation. If verification is pending, keep building with the access you already have. Offers and eligibility can change, so use the current GitHub pages linked above rather than relying on screenshots.
 
 ## 1. Plan your page before asking for code
 
-Write quick answers to these prompts. They become your content brief:
+Write quick answers to these prompts. They become your research-profile content brief:
 
-1. What do you do or study?
-2. What kind of work do you want to be known for?
-3. Which two projects, assignments, or experiments can you show?
-4. What is the safest public way for someone to contact you?
-5. Which three words describe the mood of your site?
+1. Are you a Forrest Research Foundation Scholar or Fellow?
+2. Which university are you working at: Curtin, Murdoch, UWA, ECU, or Notre Dame?
+3. What is a public, one-sentence description of your research area or question?
+4. Which two public outputs, talks, projects, methods, or collaborations can you show?
+5. What is the safest public way for someone to contact you?
 
-Do not publish your home address, personal phone number, private class information, passwords, API keys, or anything you would not put on a public noticeboard.
+Do not publish your home address, personal phone number, private class information, passwords, API keys, unpublished thesis chapters, participant data, embargoed results, confidential feedback, or anything you would not put on a public noticeboard.
 
-## 2. Create your personal website repository
+## 2. Create your research profile repository
 
 On GitHub, create a **public** repository with this exact name:
 
@@ -74,16 +84,17 @@ code .
 
 If you are using GitHub Codespaces, open the repository in a codespace and skip the clone command.
 
-You should see `index.html`, `styles.css`, `script.js`, and a `.github` folder in the Explorer. Open `index.html` in the editor and locate the sample name, biography, project cards, email address, and social links.
+You should see `index.html`, `styles.css`, `script.js`, and a `.github` folder in the Explorer. Open `index.html` in the editor and locate the sample name, Forrest Research Foundation affiliation, research summary, project cards, email address, and social links.
 
-## 4. Make the starter site yours
+## 4. Make the starter profile yours
 
 Begin with a change you understand. Replace:
 
 - `Alex Morgan` with your name;
-- the hero sentence with a true one-line description of your work;
-- the about paragraphs with your own words;
-- the three sample projects with real work, class exercises, or experiments; and
+- `[Scholar / Fellow]` with your current Forrest Research Foundation appointment;
+- `[Curtin / Murdoch / UWA / ECU / Notre Dame]` with your university;
+- the research summary with a public-safe description of your work;
+- the three sample cards with public outputs, talks, methods, or collaborations; and
 - the sample links and email address with your public links.
 
 Keep the HTML structure while you edit the content. This lets you see the difference between content, presentation, and behavior:
@@ -105,11 +116,11 @@ Give Copilot context, constraints, and a clear definition of done. Start with on
 Try one of these prompts in Copilot Chat:
 
 ```text
-Review index.html and suggest three concise hero taglines for a student who is studying [YOUR SUBJECT]. Do not invent achievements. Return options only; do not edit the file.
+Review index.html and suggest three concise hero taglines for a Forrest Research Foundation [Scholar / Fellow] working at [YOUR UNIVERSITY] and researching [YOUR FIELD]. Do not invent achievements, affiliations, or research claims. Return options only; do not edit the file.
 ```
 
 ```text
-In index.html, replace the three sample project cards with placeholders for my projects. Keep the existing semantic structure and link style. Do not invent project outcomes or technologies; use [REPLACE THIS] where information is missing.
+In index.html, replace the three sample cards with public-safe placeholders for my research, public scholarship, and methods/collaboration. Keep the existing semantic structure and link style. Do not invent research outcomes, participants, technologies, or publication status; use [REPLACE THIS] where information is missing.
 ```
 
 ```text
@@ -148,7 +159,7 @@ Review the Source Control panel. You should recognize every changed file. Then r
 
 ```bash
 git add .
-git commit -m "Create personal portfolio site"
+git commit -m "Create research profile site"
 git push -u origin main
 ```
 
@@ -164,7 +175,7 @@ The starter repository already contains `.github/workflows/pages.yml`. On GitHub
 4. Open the **Actions** tab and watch the deployment workflow.
 5. When it succeeds, return to **Settings → Pages** and choose **Visit site**.
 
-Your personal site should be available at:
+Your research profile should be available at:
 
 ```text
 https://YOUR-USERNAME.github.io
@@ -176,10 +187,10 @@ The first deployment can take a few minutes. A later push to `main` will run the
 
 Swap links with a partner. Ask them to answer:
 
-1. What do you think this person does after reading the first screen?
-2. Which project would you click first, and why?
-3. Can you find the contact method without being told where it is?
-4. What is one detail that makes the site feel personal?
+1. Can you tell that this person is a Forrest Research Foundation Scholar or Fellow?
+2. Which university and research area do you think they are connected with?
+3. Which research or public-scholarship item would you click first, and why?
+4. Can you find the contact method without being told where it is?
 
 Use the feedback to make one small, meaningful change. Ask Copilot to explain the change if you are unsure why it works. Preview, commit, push, and check the live URL again.
 
@@ -187,10 +198,10 @@ Use the feedback to make one small, meaningful change. Ask Copilot to explain th
 
 Choose one extension:
 
-- add a downloadable résumé link with a descriptive label;
-- add a new project card and a project-specific page;
+- add an ORCID, Google Scholar, or public profile link with a descriptive label;
+- add a public research summary or project-specific page;
 - create a light/dark theme toggle that respects the user’s system preference;
-- add a small “now” section that you will update monthly; or
+- add a small “now” or “current research focus” section that you will update periodically; or
 - write a short `README.md` in your personal repository explaining how you built the site.
 
 Keep the site static and dependency-free unless you can explain why a new dependency is worth the maintenance cost.
@@ -198,7 +209,8 @@ Keep the site static and dependency-free unless you can explain why a new depend
 ## Done checklist
 
 - [ ] My repository is named `YOUR-USERNAME.github.io`.
-- [ ] My name, introduction, projects, and links are accurate.
+- [ ] My Forrest Research Foundation Scholar/Fellow statement is accurate.
+- [ ] My university, research area, projects, and links are accurate and public-safe.
 - [ ] I checked the page on a narrow screen.
 - [ ] I tested keyboard focus and the mobile menu.
 - [ ] I reviewed Copilot’s changes before accepting them.

@@ -1,4 +1,4 @@
-# GitHub Pages troubleshooting
+# GitHub Pages troubleshooting for the PhD Surgery profile workshop
 
 Use this guide after checking the local site. Fix one layer at a time: content, local preview, Git history, workflow, then Pages settings.
 
@@ -54,10 +54,10 @@ Do not keep retrying without reading the log. Copy only the relevant error messa
 
 GitHub Pages URLs are case-sensitive. Use relative paths such as `styles.css`, not a local file path. For a user site, a link like `/about.html` may work differently than it does in a nested project site; prefer `about.html` for simple static files.
 
-## A learner is blocked by Git authentication
+## A participant is blocked by Git authentication
 
-Use the VS Code Source Control sign-in flow, GitHub CLI if it is already installed, or GitHub Codespaces. Do not ask a learner to share a password or personal access token in chat. If the group is using a managed machine, ask the instructor or administrator to help with the approved sign-in method.
+Use the VS Code Source Control sign-in flow, GitHub CLI if it is already installed, or GitHub Codespaces. Do not ask a participant to share a password or personal access token in chat. If the group is using a managed machine, ask the facilitator or administrator to help with the approved sign-in method.
 
-## The education application is pending
+## GitHub Education verification is pending
 
-The student verification process is not required to finish this workshop. Continue with the GitHub account and tools already available. Return to the official [GitHub Education student page](https://education.github.com/pack/join) later.
+GitHub Education verification is not required to finish this Forrest Research Foundation workshop. Continue with the GitHub account and tools already available. Return to the official [GitHub Education student page](https://education.github.com/pack/join) later. Forrest Research Foundation Scholar/Fellow status is separate from GitHub Education verification.

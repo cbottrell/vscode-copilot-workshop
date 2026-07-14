@@ -1,12 +1,12 @@
-# Build and publish your personal website with VS Code, GitHub, and Copilot
+# Build and publish your Forrest Research Foundation profile with VS Code, GitHub, and Copilot
 
-This repository is a ready-to-run workshop for students who want to create a small personal website and publish it with GitHub Pages. The project uses plain HTML, CSS, and JavaScript so learners can inspect every line, ask Copilot for help, and understand the result before they commit it.
+This repository is a ready-to-run PhD Surgery workshop for Forrest Research Foundation Scholars (PhD students) and Fellows (postdocs) who want to create a public research profile and publish it with GitHub Pages. The project uses plain HTML, CSS, and JavaScript so participants can inspect every line, ask Copilot for help, and understand the result before they commit it.
 
 ## Workshop at a glance
 
-- **Audience:** students and beginner web developers
+- **Audience:** Forrest Research Foundation Scholars and Fellows, including beginner web developers
 - **Duration:** 90–120 minutes
-- **Outcome:** a live personal site at `https://YOUR-USERNAME.github.io`
+- **Outcome:** a live research profile at `https://YOUR-USERNAME.github.io`
 - **Tools:** GitHub, VS Code, Git, and GitHub Copilot
 - **Format:** short demos, guided build, pair review, and an individual extension challenge
 
@@ -26,21 +26,22 @@ This repository is a ready-to-run workshop for students who want to create a sma
 
 ## How to run the workshop
 
-1. Share this repository with learners or mark it as a GitHub template.
-2. Ask each learner to create a **public** repository named `YOUR-USERNAME.github.io`.
-3. Have learners copy the starter files into that repository, then open it in VS Code.
+1. Share this repository with Scholars and Fellows or mark it as a GitHub template.
+2. Ask each participant to create a **public** repository named `YOUR-USERNAME.github.io`.
+3. Have participants copy the starter files into that repository, then open it in VS Code.
 4. Follow [`workshop/participant-guide.md`](workshop/participant-guide.md) from top to bottom.
-5. Use the facilitator guide to pause for the suggested checkpoints and pair reviews.
+5. Use the facilitator guide to pause for the suggested research-profile checkpoints and pair reviews.
 
-Learners do not need GitHub Education verification to complete the project. Verified students can optionally apply for the GitHub Student Developer Pack and activate Copilot Student; the participant guide explains that path without making it a blocker.
+Forrest Research Foundation affiliation and GitHub Education verification are separate. Participants do not need GitHub Education verification to complete the project. Verified students can optionally apply for the GitHub Student Developer Pack and activate Copilot Student; the participant guide explains that path without making it a blocker.
 
 ## Success criteria
 
-By the end, each learner should be able to:
+By the end, each participant should be able to:
 
 - explain the role of VS Code, Git, GitHub, Copilot, and GitHub Pages;
 - use Copilot to propose and explain small changes instead of blindly accepting a full rewrite;
-- make a semantic, responsive personal site with accessible links and images;
+- introduce themselves as a Forrest Research Foundation Scholar or Fellow working at Curtin, Murdoch, UWA, ECU, or Notre Dame;
+- make a semantic, responsive research profile with accessible links and public-safe research descriptions;
 - commit and push a change to GitHub; and
 - find the live site and diagnose a failed Pages deployment.
 
@@ -53,4 +54,4 @@ By the end, each learner should be able to:
 
 ## License and adaptation
 
-Use this workshop as a teaching resource. Replace the sample copy, add your institution’s support links, and adjust the timing for your group. Keep the privacy and responsible-use guidance: GitHub Pages sites are public by default, so learners should publish only information they are comfortable sharing.
+Use this workshop as a teaching resource for your PhD Surgery session. Replace the sample copy with the participant’s name, Scholar/Fellow status, university, research area, and public links. Keep the privacy and research-integrity guidance: GitHub Pages sites are public by default, so participants should publish only information they are comfortable sharing and only research details that are safe to make public.
