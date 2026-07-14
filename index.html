@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A starter personal portfolio website built with HTML, CSS, JavaScript, GitHub, and GitHub Copilot."
+    />
+    <title>Alex Morgan — Designer and developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="#top" aria-label="Alex Morgan home">AM<span>.</span></a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true">↘</span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#work">Selected work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="top" class="hero section-grid" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <p class="eyebrow">Portfolio / 2026</p>
+          <h1 id="hero-title">I make useful things for curious people.</h1>
+          <div class="hero-bottom">
+            <p class="hero-intro">
+              I’m Alex, a designer and front-end developer who turns messy ideas into clear,
+              friendly digital experiences.
+            </p>
+            <a class="text-link" href="#work">See selected work <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section-grid" aria-labelledby="about-title">
+        <div class="container two-column">
+          <p class="section-number">01 / About</p>
+          <div>
+            <h2 id="about-title">Good work feels obvious after you understand the problem.</h2>
+            <div class="about-copy">
+              <p>
+                I’m currently studying interaction design and building a practice around
+                accessible, low-friction interfaces. My favourite projects sit between design,
+                technology, and a real human need.
+              </p>
+              <p>
+                Outside of a code editor, you’ll find me collecting field recordings, making
+                overcomplicated toast, or walking somewhere without a map.
+              </p>
+            </div>
+            <ul class="tag-list" aria-label="Skills">
+              <li>UI design</li>
+              <li>HTML / CSS</li>
+              <li>JavaScript</li>
+              <li>Research</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work section-grid" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-number">02 / Selected work</p>
+            <h2 id="work-title">A few things I’ve made recently.</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-card-featured">
+              <div class="project-visual visual-solar" aria-hidden="true">
+                <span>solar / 01</span>
+                <span class="sun-mark">✳</span>
+              </div>
+              <div class="project-meta">
+                <p class="project-type">Product concept · 2026</p>
+                <h3>Solar Notes</h3>
+                <p>A calmer way for field teams to capture observations while they work.</p>
+                <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">
+                  View project <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-radio" aria-hidden="true">
+                <span>radio / 02</span>
+                <span class="radio-mark">◌</span>
+              </div>
+              <div class="project-meta">
+                <p class="project-type">Community · 2025</p>
+                <h3>Open Frequency</h3>
+                <p>A tiny online archive for local radio stories and sound experiments.</p>
+                <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">
+                  View project <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-tide" aria-hidden="true">
+                <span>tide / 03</span>
+                <span class="tide-mark">≈</span>
+              </div>
+              <div class="project-meta">
+                <p class="project-type">Data story · 2025</p>
+                <h3>Reading the Tide</h3>
+                <p>An explorable guide to the changing shoreline around my hometown.</p>
+                <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">
+                  View project <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-grid" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <p class="section-number">03 / Contact</p>
+          <h2 id="contact-title">Have a good problem?</h2>
+          <p class="contact-copy">I’m always happy to talk about thoughtful digital work, sound, and the web.</p>
+          <a class="email-link" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Built with HTML, CSS, JavaScript, GitHub, and a little help from Copilot.</p>
+        <p>© <span id="current-year">2026</span> Alex Morgan</p>
+      </div>
+    </footer>
+  </body>
+</html>
