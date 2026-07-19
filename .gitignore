@@ -1,0 +1,30 @@
+# macOS and Windows metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Generated output, cache, and temporary directories
+outputs/
+cache/
+caches/
+.cache/
+tmp/
+temp/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
