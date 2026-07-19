@@ -15,11 +15,15 @@ The workflow is platform-neutral. Participants can use the VS Code integrated te
 
 ## What is included
 
+The facilitator slide deck and all scripts used to generate its custom assets are included in the repository, so the presentation and its visuals can be reproduced, updated, and adapted locally.
+
 | Path | Purpose |
 | --- | --- |
 | [`index.html`](index.html) | Semantic starter page with editable content | 
 | [`styles.css`](styles.css) | Responsive visual design with no framework dependency |
 | [`script.js`](script.js) | Small progressive-enhancement script for the menu and year |
+| [`slides/FRF Surgery - LLMs.pptx`](slides/FRF%20Surgery%20-%20LLMs.pptx) | Facilitator presentation deck for the LLM workshop |
+| [`slides/assets/work/`](slides/assets/work/) | Python and JavaScript source scripts for regenerating the presentation assets |
 | [`.github/workflows/pages.yml`](.github/workflows/pages.yml) | GitHub Pages deployment workflow |
 | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) | Project rules that keep Copilot’s suggestions focused |
 | [`workshop/participant-guide.md`](workshop/participant-guide.md) | Learner-facing, step-by-step lab |
