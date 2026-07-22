@@ -250,9 +250,9 @@ for tx, label in ((1121, "0"), (1212, "0.25"), (1302, "0.50"), (1393, "0.75"), (
     line((tx, axis_y, tx, axis_y + 13), NAVY, 1)
     text_mid(tx, 787, label, 14, "Arial", NAVY, "center")
 
-text_mid(1080, 830, "More likely", 16, "Arial", GREEN)
+text_mid(1080, 830, "Less likely", 16, "Arial", NAVY)
 arrow(1191, 830, 1395, 830, NAVY, 1, 8)
-text_mid(1420, 830, "Less likely", 16, "Arial", NAVY)
+text_mid(1420, 830, "More likely", 16, "Arial", GREEN)
 
 c.showPage()
 c.save()

@@ -203,9 +203,9 @@ for tx, label in axis_ticks:
     line((tx, axis_y, tx, axis_y + 13), NAVY, 1)
     text_xy(tx, 787, label, F14, anchor="mm")
 
-text_xy(1080, 830, "More likely", F16, fill=GREEN, anchor="lm")
+text_xy(1080, 830, "Less likely", F16, fill=NAVY, anchor="lm")
 arrow(1191, 830, 1395, 830, color=NAVY, width=1, head=8)
-text_xy(1420, 830, "Less likely", F16, fill=NAVY, anchor="lm")
+text_xy(1420, 830, "More likely", F16, fill=GREEN, anchor="lm")
 
 image = image.resize((W, H), Image.Resampling.LANCZOS)
 image.save("/Users/cbottrell/Documents/Codex/2026-07-19/mak/outputs/llm-next-token-schematic.png", quality=96)
